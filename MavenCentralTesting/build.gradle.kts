@@ -61,13 +61,13 @@ afterEvaluate {
                     from(components["release"])
                 }
                 groupId = group.toString()
-                artifactId = "mylibrary" // your artifact name
+                artifactId = "MavenCentralTesting" // your artifact name
                 version = version
 
                 pom {
                     name.set("My Library")
                     description.set("A useful Android library for ...")
-                    url.set("https://github.com/your/repo")
+                    url.set("https://github.com/rajivpuli/ModuleTest")
                     licenses {
                         license {
                             name.set("The Apache License, Version 2.0")
@@ -76,15 +76,15 @@ afterEvaluate {
                     }
                     developers {
                         developer {
-                            id.set("yourid")
-                            name.set("Your Name")
-                            email.set("you@example.com")
+                            id.set("rajivpuli")
+                            name.set("Rajiv")
+                            email.set("prajiv001@gmail.com")
                         }
                     }
                     scm {
-                        connection.set("scm:git:git://github.com/your/repo.git")
-                        developerConnection.set("scm:git:ssh://github.com:your/repo.git")
-                        url.set("https://github.com/your/repo")
+                        connection.set("scm:git:git://github.com/rajivpuli/ModuleTest.git")
+                        developerConnection.set("scm:git:ssh://github.com:rajivpuli/ModuleTest.git")
+                        url.set("https://github.com/rajivpuli/ModuleTest")
                     }
                 }
             }
